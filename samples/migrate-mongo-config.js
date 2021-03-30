@@ -27,7 +27,10 @@ const config = {
 
   // Enable the algorithm to create a checksum of the file contents and use that in the comparison to determin
   // if the file should be run.  Requires that scripts are coded to be run multiple times.
-  useFileHash: false
+  useFileHash: false,
+
+  // Enable importing ES6 modules (uses import vs require)
+  useES6: false
 };
 
 // Return the config as a promise
